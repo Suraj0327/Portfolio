@@ -1,0 +1,41 @@
+.i-name {
+display: flex;
+flex-direction: column;
+gap: 0.25rem;
+}
+
+.i-name > :nth-child(1) {
+color: var(--orange);
+font-weight: bold;
+font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+font-weight: 100;
+font-size: 14px;
+color: var(--gray);
+margin-top: 10px;
+}
+  
+  .i-left {
+    text-align: center;
+  }
+  
+  .i-button {
+    margin-top: 20px;
+  }
+  
+  .i-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow images to wrap to the next line if necessary */
+    margin-top: 20px; /* Add some space between the button and the images */
+  }
+  
+  .i-icons img {
+    width: 160px; /* Doubled width */
+    height: 160px; /* Doubled height */
+    border-radius: 50%;
+    margin: 10px; /* Adjust margin for spacing between images */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+  }
+  
