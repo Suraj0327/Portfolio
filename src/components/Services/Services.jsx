@@ -26,12 +26,12 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>About me</span>
         
-        <spane>
+        <span>
         I derive immense joy from my dual role as a developer <br/>
         and tutor, finding fulfillment in both creating 
           <br />
           innovative solutions and empowering others with knowledge.
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>

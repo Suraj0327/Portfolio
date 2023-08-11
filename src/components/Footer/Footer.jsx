@@ -4,7 +4,7 @@ import Wave from "../../img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
-
+import Youtube from "@iconscout/react-unicons/icons/uil-youtube"; 
 const Footer = () => {
   return (
     <div className="footer">
@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="https://instagram.com/surajm0327?igshid=NTc4MTIwNjQ2YQ=="> <Insta color="white" size={"3rem"} /></a>
          <a href="https://www.facebook.com/profile.php?id=100025726065982&mibextid=ZbWKwL"><Facebook color="white" size={"3rem"} /></a>
           <a href="https://github.com/Suraj0327"><Gitub color="white" size={"3rem"} /></a>
-          
+          <a href="https://www.youtube.com/@mathswallahsurajmahto3638"><Youtube color="white" size={"3rem"}/></a>
         </div>
       </div>
     </div>

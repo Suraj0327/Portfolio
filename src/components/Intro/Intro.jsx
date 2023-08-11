@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/Mahto.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -27,8 +27,8 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           
-          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
-          <span ><h1><b>Suraj Mahto</b></h1></span>
+          <span style={{ color: darkMode ? "white" : "" }}><h1>Hey! I Am</h1>
+          <h1><b>Suraj Mahto</b></h1></span>
           <span>
           MERN stack developer proficient in Java with a strong problem-solving aptitude. Skilled tutor with three years of teaching experience. Adaptable learner and communicator, seeking opportunities to contribute to tech projects and expand expertise.
           </span>
